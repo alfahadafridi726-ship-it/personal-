@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy National Princess Day, My Princess Hafiza 👑💖</title>
+  
+  <!-- Romantic Fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="royal-theme">
+
+  <!-- Background Particle & Ambient Canvas -->
+  <canvas id="ambientCanvas"></canvas>
+
+  <!-- Ambient Sound / Music Floating Toggle -->
+  <div class="audio-control" id="audioControl" title="Toggle Romantic Fairy Tale Chimes">
+    <button class="audio-btn" id="audioToggleBtn" aria-label="Toggle Sound">
+      <i class="fa-solid fa-music"></i>
+    </button>
+    <span class="audio-tooltip">Play Royal Melody 🎵</span>
+  </div>
+
+  <!-- Top Royal Announcement Bar -->
+  <header class="royal-nav" id="royalNav">
+    <div class="nav-content">
+      <div class="royal-emblem">
+        <span class="crown-icon">👑</span>
+        <div class="royal-titles">
+          <span class="brand-sub">NATIONAL PRINCESS DAY &bull; NOVEMBER 18</span>
+          <span class="brand-main">For Princess Hafiza</span>
+        </div>
+      </div>
+      
+      <div class="nav-actions">
+        <button class="nav-btn qr-trigger-btn" id="openQrBtn">
+          <i class="fa-solid fa-qrcode"></i> Get Scannable QR Gift Card
+        </button>
+        <button class="nav-btn-highlight" id="startJourneyBtn">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Experience Princess Mode
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main-wrapper">
+
+    <!-- HERO SECTION: ROYAL WELCOME -->
+    <section class="section hero-princess" id="heroSection">
+      <div class="container hero-container">
+        
+        <!-- Animated Crown Badge -->
+        <div class="crown-presentation">
+          <div class="crown-glow-ring"></div>
+          <div class="royal-tiara-3d">
+            <i class="fa-solid fa-crown main-tiara"></i>
+            <span class="sparkle sparkle-1">✨</span>
+            <span class="sparkle sparkle-2">💖</span>
+            <span class="sparkle sparkle-3">✨</span>
+          </div>
+        </div>
+
+        <div class="hero-badge">
+          <i class="fa-solid fa-gem"></i> Special Royal Edition &bull; November 18, 2026
+        </div>
+
+        <h1 class="royal-hero-title">
+          Happy National Princess Day, <br>
+          <span class="princess-name-glow">My Princess Hafiza</span>
+        </h1>
+
+        <p class="hero-romantic-quote">
+          &ldquo;In a world of eight billion people, my heart found its only royalty in you. You don’t need a fairy tale castle to be a princess—your smile, your laughter, and the kindness in your eyes makes you the queen of my entire universe.&rdquo;
+        </p>
+
+        <!-- Interactive Journey Jump Buttons -->
+        <div class="hero-cta-group">
+          <a href="#welcomeLetter" class="royal-btn primary-glow" id="heroBeginBtn">
+            <span>Begin The Royal Journey</span>
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <button class="royal-btn secondary-glass" id="heroQrBtn">
+            <span>Convert to QR For Hafiza</span>
+            <i class="fa-solid fa-qrcode"></i>
+          </button>
+        </div>
+
+        <!-- Quick Love Milestones Counter -->
+        <div class="love-counter-bar">
+          <div class="counter-item">
+            <span class="counter-num">1</span>
+            <span class="counter-desc">My Only Princess</span>
+          </div>
+          <div class="counter-divider">&bull;</div>
+          <div class="counter-item">
+            <span class="counter-num">100%</span>
+            <span class="counter-desc">Ruled by Hafiza</span>
+          </div>
+          <div class="counter-divider">&bull;</div>
+          <div class="counter-item">
+            <span class="counter-num">&infin;</span>
+            <span class="counter-desc">Forever & Always</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 1: THE ROYAL DEDICATION (HAPPY PRINCESS DAY TO PRINCESS HAFIZA) -->
+    <section class="section welcome-section" id="welcomeLetter">
+      <div class="container">
+        <div class="royal-card glass-panel text-center">
+          
+          <div class="card-crest">
+            <i class="fa-solid fa-shield-heart"></i>
+          </div>
+
+          <div class="section-tag">Royal Decree &bull; To My Beloved Hafiza</div>
+          <h2 class="card-title">A Message Fit for a Princess</h2>
+          
+          <div class="scroll-prose">
+            <p class="lead-text">
+              My dearest <strong>Hafiza</strong>,
+            </p>
+            <p>
+              Today, the world celebrates <strong>National Princess Day</strong>, but for me, every single sunrise that brings you into my life feels like a royal blessing. From the very first moment you walked into my world, you brought an elegance, warmth, and sweetness that words can scarcely describe.
+            </p>
+            <p>
+              You make even the simplest days feel like a golden adventure. Your laughter is my favorite symphony, your happiness is my greatest ambition, and your hand in mine is the greatest honor I could ever ask for.
+            </p>
+            <p class="emphasis-prose">
+              You are not just my princess for today—you are the ruler of my heart for every tomorrow yet to come. 👑💖
+            </p>
+          </div>
+
+          <div class="card-action-bar">
+            <button class="royal-btn next-step-btn" data-target="#proposalSection">
+              <span>Read What's Next in My Heart...</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THE ROYAL PROPOSAL 💍💖 -->
+    <section class="section proposal-section" id="proposalSection">
+      <div class="container">
+        
+        <div class="proposal-card glass-panel" id="proposalBox">
+          <div class="proposal-ornament-top">
+            <i class="fa-solid fa-sparkles"></i>
+          </div>
+
+          <div class="ring-box-wrapper">
+            <div class="ring-glow-halo"></div>
+            <div class="ring-box" id="ringBoxElement">
+              <div class="ring-stand">
+                <div class="diamond-ring">
+                  <div class="ring-band"></div>
+                  <div class="diamond-gem">💎</div>
+                </div>
+              </div>
+            </div>
+            <div class="ring-hint">Tap the ring box to shine brighter ✨</div>
+          </div>
+
+          <div class="proposal-header">
+            <span class="proposal-subtitle">The Grand Question For Hafiza</span>
+            <h2 class="proposal-title">
+              Hafiza, Will You Be My Forever Princess & Queen? 💍💖
+            </h2>
+            <p class="proposal-description">
+              I don't just want ordinary days with you. I want a lifetime of laughing together, conquering the world together, whispering sweet secrets, and cherishing you through every chapter of our fairytale. 
+              <br><br>
+              <strong>Will you make me the happiest person in the universe by holding my heart forever?</strong>
+            </p>
+          </div>
+
+          <!-- Proposal Buttons (YES and Playful NO) -->
+          <div class="proposal-actions" id="proposalActionGroup">
+            <button class="btn-royal-yes" id="btnYes">
+              <i class="fa-solid fa-heart-pulse"></i> YES, Forever & Always! 💍💖
+            </button>
+            <button class="btn-royal-no" id="btnNo">
+              No 🙈
+            </button>
+          </div>
+
+          <!-- Celebratory Success Container (Shown after YES!) -->
+          <div class="proposal-celebration hidden" id="celebrationCard">
+            <div class="celebration-badge">
+              <i class="fa-solid fa-champagne-glasses"></i> SHE SAID YES!
+            </div>
+            <h3 class="celebration-heading">
+              You Have Made Me The Happiest Prince Alive, Hafiza! 🥂✨
+            </h3>
+            <p class="celebration-text">
+              My heart is officially yours for all eternity. Happy National Princess Day, my soulmate, my best friend, and my forever queen! 💖👑
+            </p>
+            <div class="celebration-ring-display">
+              💍 &hearts; 👑 &hearts; 💍
+            </div>
+            <button class="royal-btn secondary-glass" id="celebrationNextBtn">
+              <span>Read The Love Quotes For You &darr;</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: ROMANTIC LOVE QUOTES FOR HAFIZA 📜🌹 -->
+    <section class="section quotes-section" id="quotesSection">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-feather-pointed"></i> Written From The Soul</div>
+          <h2 class="section-title">Romantic Love Quotes For Princess Hafiza</h2>
+          <p class="section-subtitle">
+            Every quote here was chosen with you in my mind and in every beat of my heart.
+          </p>
+        </div>
+
+        <!-- Quotes Grid -->
+        <div class="quotes-grid">
+          
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Dedicated to your beautiful heart, Hafiza</span>
+              <span class="quote-heart">💖</span>
+            </div>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;If I had a single flower for every time I think of you, Hafiza, I could walk through an eternal garden forever.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Alfred Tennyson (Reimagined for you)</span>
+              <span class="quote-heart">🌹</span>
+            </div>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;You are my today and all of my tomorrows. My world became complete the moment our paths crossed.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Forever yours, Hafiza</span>
+              <span class="quote-heart">✨</span>
+            </div>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Maya Angelou</span>
+              <span class="quote-heart">👑</span>
+            </div>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;I swear I couldn't love you more than I do right now, and yet I know I will tomorrow.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Leo Christopher</span>
+              <span class="quote-heart">💫</span>
+            </div>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="quote-body">
+              &ldquo;Whatever our souls are made of, yours and mine are carved from the very same starlight.&rdquo;
+            </p>
+            <div class="quote-footer">
+              <span class="quote-dedication">Emily Brontë</span>
+              <span class="quote-heart">🌟</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Interactive Love Envelope -->
+        <div class="love-letter-envelope-box">
+          <div class="envelope-container" id="loveEnvelope">
+            <div class="envelope-back"></div>
+            <div class="envelope-paper" id="envelopeLetter">
+              <div class="letter-inner">
+                <div class="letter-seal"><i class="fa-solid fa-crown"></i></div>
+                <h3>My Secret Note To Hafiza</h3>
+                <p>
+                  "Thank you for being the most loving, caring, and stunning girlfriend. Whenever things get tough, just thinking of your smile lights up everything. Happy Princess Day, my sweetheart. I will always protect your smile and treat you like royalty."
+                </p>
+                <div class="letter-sig">&mdash; Your Prince &hearts;</div>
+              </div>
+            </div>
+            <div class="envelope-front"></div>
+            <div class="envelope-flap" id="envelopeFlap">
+              <div class="wax-seal" id="waxSealBtn">
+                <i class="fa-solid fa-heart"></i>
+                <span>TAP TO OPEN</span>
+              </div>
+            </div>
+          </div>
+          <div class="envelope-caption">Tap the heart wax seal to open Hafiza's private letter 💌</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: WHY HAFIZA IS MY PRINCESS (REASONS CARDS) -->
+    <section class="section reasons-section" id="reasonsSection">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <div class="section-tag"><i class="fa-solid fa-stars"></i> Royal Virtues</div>
+          <h2 class="section-title">6 Reasons Why Hafiza is My Forever Princess</h2>
+          <p class="section-subtitle">
+            Just a few of the million reasons why my heart beats only for you.
+          </p>
+        </div>
+
+        <div class="reasons-grid">
+          
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-face-smile-beam"></i>
+            </div>
+            <h3>Your Radiant Smile</h3>
+            <p>One smile from you can instantly illuminate my darkest day and turn ordinary moments into pure magic.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <h3>Your Mesmerizing Eyes</h3>
+            <p>Deep, gentle, and sparkling with sincerity. Every time I look into your eyes, I see my home and my future.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>Your Pure Kindness</h3>
+            <p>The gentle way you care for people and your compassionate soul makes you truly royal from the inside out.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-music"></i>
+            </div>
+            <h3>Your Adorable Laugh</h3>
+            <p>The sweetest sound in the universe. I would spend my entire life telling silly jokes just to hear you chuckle.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-shield-cat"></i>
+            </div>
+            <h3>Your Strength & Grace</h3>
+            <p>You handle challenges with unmatched grace, wisdom, and dignity. A true queen in every sense of the word.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-icon-circle">
+              <i class="fa-solid fa-infinity"></i>
+            </div>
+            <h3>You Simply Being You</h3>
+            <p>You don't have to try. Just being Hafiza is more than enough to hold my heart captive forever.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: VIRTUAL PRINCESS CORONATION CERTIFICATE -->
+    <section class="section coronation-section" id="coronationSection">
+      <div class="container">
+        
+        <div class="royal-card coronation-card glass-panel text-center">
+          <div class="coronation-ribbon">
+            <i class="fa-solid fa-award"></i> OFFICIAL ROYAL PROCLAMATION
+          </div>
+
+          <h2 class="coronation-title">Princess Coronation Certificate</h2>
+          <p class="coronation-sub">Issued under the authority of Endless Love &bull; November 18, 2026</p>
+
+          <div class="certificate-frame">
+            <div class="cert-crown-big">👑</div>
+            <div class="cert-body">
+              <span class="cert-certifies">THIS CERTIFIES THAT</span>
+              <div class="cert-name">Princess Hafiza</div>
+              <p class="cert-decree">
+                Has been officially crowned the Supreme Princess of My Heart, Ruler of My Thoughts, and Keeper of My Eternal Love. She possesses absolute authority to demand cuddles, affection, sweet treats, and unending devotion at all times.
+              </p>
+              <div class="cert-footer">
+                <div class="cert-sign">
+                  <div class="sign-line"></div>
+                  <span>Your Forever Prince</span>
+                </div>
+                <div class="cert-seal">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>VERIFIED ROYALTY</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="coronation-cta">
+            <button class="royal-btn primary-glow" id="crownMeBtn">
+              <i class="fa-solid fa-crown"></i> Tap to Crown Princess Hafiza! ✨
+            </button>
+            <button class="royal-btn secondary-glass" id="printCertBtn">
+              <i class="fa-solid fa-print"></i> Save / Print Certificate
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================================
+       THE ROYAL QR CODE MODAL ("CONVERT ENTIRE WEBSITE TO QR")
+  =================================================================== -->
+  <div class="modal-overlay hidden" id="qrModal">
+    <div class="modal-card qr-card-modal">
+      
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <span class="modal-crown">👑</span>
+          <div>
+            <h3>Princess Hafiza's Royal QR Gift Card</h3>
+            <small>Scan with phone camera to open the magical surprise</small>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="closeQrModal" aria-label="Close Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Printable / Shareable Royal Gift Card Frame -->
+        <div class="printable-gift-card" id="giftCardFrame">
+          
+          <div class="card-ornament ornament-tl">❧</div>
+          <div class="card-ornament ornament-tr">☙</div>
+          <div class="card-ornament ornament-bl">❧</div>
+          <div class="card-ornament ornament-br">☙</div>
+
+          <div class="gift-header">
+            <div class="gift-tiara">👑</div>
+            <h4>NATIONAL PRINCESS DAY</h4>
+            <h2>For My Princess Hafiza</h2>
+            <p>Scan this QR code with your phone camera to reveal your royal surprise!</p>
+          </div>
+
+          <!-- THE GENERATED QR CODE CANVAS / CONTAINER -->
+          <div class="qr-code-box">
+            <div id="qrCodeContainer" class="qr-canvas-holder">
+              <!-- QR Code generated dynamically by script.js -->
+            </div>
+            <div class="qr-instruction">
+              <i class="fa-solid fa-camera"></i> Point Camera to Scan
+            </div>
+          </div>
+
+          <div class="gift-footer">
+            <div class="gift-message-preview">
+              &ldquo;Step 1: Happy Princess Day &bull; Step 2: The Proposal &bull; Step 3: Love Quotes&rdquo;
+            </div>
+            <span class="gift-tagline">Crafted with eternal love just for you, Hafiza 💖</span>
+          </div>
+
+        </div>
+
+        <!-- QR Controls & Options -->
+        <div class="qr-control-panel">
+          <div class="qr-url-group">
+            <label for="qrUrlInput">QR Code Target URL / Link:</label>
+            <div class="input-with-copy">
+              <input type="text" id="qrUrlInput" readonly>
+              <button class="btn-copy" id="btnCopyUrl" title="Copy URL">
+                <i class="fa-solid fa-copy"></i> Copy
+              </button>
+            </div>
+            <small class="helper-text">You can send this link or print/save the card image below to send on WhatsApp or give as a surprise gift!</small>
+          </div>
+
+          <div class="qr-action-buttons">
+            <button class="royal-btn primary-glow btn-block" id="btnDownloadQr">
+              <i class="fa-solid fa-download"></i> Save QR Gift Card as Image (PNG)
+            </button>
+            <button class="royal-btn secondary-glass btn-block" id="btnPrintQr">
+              <i class="fa-solid fa-print"></i> Print QR Greeting Card
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ROYAL FOOTER -->
+  <footer class="royal-footer">
+    <div class="container footer-content text-center">
+      <div class="footer-crown">👑</div>
+      <p class="footer-title">National Princess Day &bull; November 18, 2026</p>
+      <p class="footer-love">Created with all my heart for my beloved <strong>Hafiza</strong> &hearts;</p>
+      <div class="footer-links">
+        <button id="footerQrBtn" class="link-btn"><i class="fa-solid fa-qrcode"></i> Open QR Gift Card</button>
+        <span class="footer-dot">&bull;</span>
+        <button id="footerRestartBtn" class="link-btn"><i class="fa-solid fa-rotate-right"></i> Replay Proposal</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
